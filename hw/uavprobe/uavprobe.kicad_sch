@@ -2,9 +2,183 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid e4efab0a-eb38-47b4-a7c8-7fdbedea4819)
+	(uuid "e4efab0a-eb38-47b4-a7c8-7fdbedea4819")
 	(paper "A4")
+	(title_block
+		(title "UAV Sensor Probe")
+		(date "2025-08-24")
+		(rev "1")
+		(comment 1 "Oleksiy Protas")
+	)
 	(lib_symbols)
+	(sheet
+		(at 195.58 66.04)
+		(size 44.45 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18076611-fcbc-4a65-8b52-2fb6c8b9c7d8")
+		(property "Sheetname" "CAN"
+			(at 195.58 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 195.58 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 57.15)
+		(size 29.21 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "199cf35c-4212-4d48-8fab-6a59511a8aed")
+		(property "Sheetname" "USB"
+			(at 139.7 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 139.7 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 71.12)
+		(size 53.34 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b637890e-36cc-449d-9355-32fb577ea192")
+		(property "Sheetname" "RP2040"
+			(at 29.21 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040.kicad_sch"
+			(at 29.21 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 119.38)
+		(size 44.45 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5a79b3e-1eba-4aa6-b522-30780a901642")
+		(property "Sheetname" "Connectors"
+			(at 123.19 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 123.19 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

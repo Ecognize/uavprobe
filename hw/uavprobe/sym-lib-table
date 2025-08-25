@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB2412")(type "KiCad")(uri "${KIPRJMOD}/lib/USB2412-DZK.kicad_sym")(options "")(descr ""))
+  (lib (name "ABLS")(type "KiCad")(uri "${KIPRJMOD}/lib/ABLS-12.000MHZ-B4-T.kicad_sym")(options "")(descr ""))
+)

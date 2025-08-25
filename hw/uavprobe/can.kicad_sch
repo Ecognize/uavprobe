@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4bf9acce-300f-42ad-8c77-8570006f0286")
+	(paper "A4")
+	(title_block
+		(title "UAV Sensor Probe")
+		(date "2025-08-24")
+		(rev "1")
+		(comment 1 "Oleksiy Protas")
+	)
+	(lib_symbols)
+)
