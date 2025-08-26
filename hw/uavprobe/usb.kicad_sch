@@ -11,6 +11,126 @@
 		(comment 1 "Oleksiy Protas")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -3083,6 +3203,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 162.56) (xy 114.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac93b6b-bf62-479e-b3ba-fd13b6922a55")
+	)
+	(wire
+		(pts
 			(xy 252.73 116.84) (xy 261.62 116.84)
 		)
 		(stroke
@@ -3090,6 +3220,16 @@
 			(type default)
 		)
 		(uuid "3d815dea-61a5-410e-9733-53ade8b525f2")
+	)
+	(wire
+		(pts
+			(xy 101.6 170.18) (xy 114.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cd5491-aeed-4a40-96ae-46609a83a5ad")
 	)
 	(wire
 		(pts
@@ -3200,6 +3340,16 @@
 			(type default)
 		)
 		(uuid "514cf226-34f0-4b48-8ca9-8d6a5057275e")
+	)
+	(wire
+		(pts
+			(xy 101.6 154.94) (xy 114.3 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f129fc-b1d7-4a9c-868d-15b72e4d20e0")
 	)
 	(wire
 		(pts
@@ -3470,6 +3620,16 @@
 			(type default)
 		)
 		(uuid "868bd15f-149a-4c60-a9bb-a6b9f4ef9e50")
+	)
+	(wire
+		(pts
+			(xy 114.3 154.94) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89188b3e-c127-4f34-9e71-df3109287b2c")
 	)
 	(wire
 		(pts
@@ -3893,6 +4053,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 177.8) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd158ff3-f934-4d88-bb77-64645d8ecd26")
+	)
+	(wire
+		(pts
 			(xy 81.28 63.5) (xy 93.98 63.5)
 		)
 		(stroke
@@ -4092,6 +4262,17 @@
 		)
 		(uuid "1fbc37c8-d2c2-4ce8-90b7-0cfcd9ad62a2")
 	)
+	(hierarchical_label "VBUS2"
+		(shape bidirectional)
+		(at 114.3 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2240c6ca-f1ce-4239-94b4-fced3cedf05d")
+	)
 	(hierarchical_label "VBUS"
 		(shape bidirectional)
 		(at 275.59 135.89 0)
@@ -4135,6 +4316,17 @@
 			(justify right)
 		)
 		(uuid "83948bc0-b402-4654-9562-54a5755e368e")
+	)
+	(hierarchical_label "VBUS"
+		(shape bidirectional)
+		(at 114.3 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3cdb991-62b2-41c4-bb54-9df415cd71c4")
 	)
 	(hierarchical_label "VBUS1"
 		(shape bidirectional)
@@ -4182,6 +4374,17 @@
 	)
 	(hierarchical_label "VBUS1"
 		(shape bidirectional)
+		(at 114.3 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e64eaf1d-a2f9-43a7-8ff6-9e04ef1f0576")
+	)
+	(hierarchical_label "VBUS1"
+		(shape bidirectional)
 		(at 128.27 97.79 180)
 		(effects
 			(font
@@ -4201,7 +4404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13251db0-8d2d-430a-afc1-443142057e7b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 140.97 66.04 0)
 			(effects
 				(font
@@ -4251,7 +4454,7 @@
 		(instances
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4464,6 +4667,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "342ec6e6-907a-47b1-8364-e9f583be1c0d")
+		(property "Reference" "#PWR032"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V (HUB)"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c98f77-ed3e-4e85-90ab-8acc1287ee6a")
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 248.92 102.87 270)
 		(unit 1)
@@ -4608,7 +4877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56d64e69-9c53-4d82-8a26-e6aff6204489")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 228.6 115.57 0)
 			(effects
 				(font
@@ -4658,7 +4927,7 @@
 		(instances
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4744,7 +5013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61308073-abfd-48b8-90bc-e2aff3c4d79e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 129.54 135.89 0)
 			(effects
 				(font
@@ -4794,7 +5063,7 @@
 		(instances
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5083,6 +5352,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 101.6 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74134662-8ed0-45f6-968c-d3b6ffcb28c0")
+		(property "Reference" "TP8"
+			(at 97.79 167.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2040 power"
+			(at 97.79 169.8624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd4144b-1dfc-4c13-b9da-5c6a1675251a")
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 248.92 158.75 270)
 		(mirror x)
@@ -5236,7 +5572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V (HUB)"
 			(at 57.15 135.89 0)
 			(effects
 				(font
@@ -5293,7 +5629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b95a351-e1c7-405c-a90e-129936b94733")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -5302,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V (HUB)"
 			(at 133.35 43.18 0)
 			(effects
 				(font
@@ -5343,7 +5679,7 @@
 		(instances
 			(project ""
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "913a0140-4a9c-450b-9618-b9ab4598e01a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5409,7 +5745,7 @@
 		(instances
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5752,6 +6088,73 @@
 			(project ""
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 101.6 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e964e5f-a37c-4ba9-8612-6ef89c038943")
+		(property "Reference" "TP9"
+			(at 97.79 174.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB peripheral power"
+			(at 97.79 177.4824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bb101be-2913-4dc0-9e66-62e8fb793a45")
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -6601,7 +7004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c75417c9-dec6-4b44-9449-f59ecfaae223")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 275.59 96.52 0)
 			(effects
 				(font
@@ -6610,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V (HUB)"
 			(at 275.59 87.63 0)
 			(effects
 				(font
@@ -6651,7 +7054,7 @@
 		(instances
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6803,7 +7206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf13da57-b0e3-4136-a763-18d5978db841")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 233.68 165.1 0)
 			(effects
 				(font
@@ -6853,7 +7256,74 @@
 		(instances
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
-					(reference "#PWR036")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 101.6 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4ef58d9-05fa-496f-9d8b-db49b3f8cc9b")
+		(property "Reference" "TP7"
+			(at 97.79 159.7024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB host power"
+			(at 97.79 162.2424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "804cbb0e-f429-4909-bbdb-28539de29417")
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7250,6 +7720,73 @@
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 101.6 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea7f20ef-8dbf-4a8b-b4ff-e0a01c2c37ae")
+		(property "Reference" "TP6"
+			(at 97.79 152.0824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3 V (HUB)"
+			(at 97.79 154.6224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "430a2638-b8c8-4e4b-a675-4c4eab7cef8a")
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
