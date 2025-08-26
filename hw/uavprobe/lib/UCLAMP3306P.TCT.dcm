@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCLAMP3306P.TCT
+D ESD Suppressors / TVS Diodes 3.3V ESD PROTECTION ARRAY
+K
+F https://www.arrow.com/en/products/uclamp3306p.tct/semtech
+$ENDCMP
+#
+#End Doc Library

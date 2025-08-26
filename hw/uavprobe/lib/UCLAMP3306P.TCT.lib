@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UCLAMP3306P.TCT
+#/1214186/1757318/2.50/7/3/Integrated Circuit
+DEF UCLAMP3306P.TCT IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "UCLAMP3306P.TCT" 1450 200 50 H V L CNN
+F2 "SON50P160X160X65-7N" 1450 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/uclamp3306p.tct/semtech" 1450 0 50 H I L CNN
+F4 "ESD Suppressors / TVS Diodes 3.3V ESD PROTECTION ARRAY" 1450 -100 50 H I L CNN "Description"
+F5 "0.65" 1450 -200 50 H I L CNN "Height"
+F6 "SEMTECH" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "UCLAMP3306P.TCT" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "947-UCLAMP3306P.TCT" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP3306P.TCT?qs=rBWM4%252BvDhIfpXpVk%252BnR0dg%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "UCLAMP3306P.TCT" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/uclamp3306p.tct/semtech?region=nac" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CATHODE_1 1 0 0 200 R 50 50 0 0 P
+X CATHODE_2 2 0 -100 200 R 50 50 0 0 P
+X CATHODE_3 3 0 -200 200 R 50 50 0 0 P
+X GND 7 800 -800 200 U 50 50 0 0 P
+X CATHODE_6 6 1600 0 200 L 50 50 0 0 P
+X CATHODE_5 5 1600 -100 200 L 50 50 0 0 P
+X CATHODE_4 4 1600 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
