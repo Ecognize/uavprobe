@@ -5496,7 +5496,7 @@
 		)
 		(uuid "f74c7bc3-72b3-439e-95a7-e77b47255e1d")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "VBUS1"
 		(shape bidirectional)
 		(at 245.11 76.2 0)
 		(effects
@@ -5518,7 +5518,7 @@
 		)
 		(uuid "3951d52e-a7f2-40e4-a17c-02b6100c206e")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "VBUS1"
 		(shape bidirectional)
 		(at 53.34 27.94 180)
 		(effects
@@ -5716,7 +5716,7 @@
 		)
 		(uuid "d5ade62f-8b3d-4f8c-999b-ccb534f40dd8")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "VBUS1"
 		(shape bidirectional)
 		(at 245.11 121.92 0)
 		(effects

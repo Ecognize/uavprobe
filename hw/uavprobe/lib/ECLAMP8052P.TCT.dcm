@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECLAMP8052P.TCT
+D ESD Suppressors / TVS Diodes COMMON MODE FILTER & ESD
+K
+F https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MClt/x4_O.M8f1_5l6CovuR7Nj9RxqDFB_sAgVeqN73g7pps
+$ENDCMP
+#
+#End Doc Library
