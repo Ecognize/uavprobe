@@ -3716,6 +3716,12 @@
 		(uuid "b7927728-a765-45a2-83d0-b520133c656f")
 	)
 	(junction
+		(at 25.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce88882f-fd3f-43a5-8931-93624e5115b6")
+	)
+	(junction
 		(at 173.99 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4043,17 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 111.76) (xy 25.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24834362-5b8a-4388-acc4-47b396d595df")
-	)
-	(wire
-		(pts
-			(xy 95.25 88.9) (xy 97.79 88.9)
+			(xy 82.55 88.9) (xy 97.79 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 91.44) (xy 97.79 91.44)
+			(xy 82.55 91.44) (xy 97.79 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4340,6 +4336,16 @@
 			(type default)
 		)
 		(uuid "4397a015-4342-4c47-9bb6-2f0782c18604")
+	)
+	(wire
+		(pts
+			(xy 25.4 111.76) (xy 25.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ff640f-772c-40d2-ae28-7c646477d8e2")
 	)
 	(wire
 		(pts
@@ -4513,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 87.63 88.9)
+			(xy 71.12 88.9) (xy 74.93 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +5029,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 87.63 91.44)
+			(xy 71.12 91.44) (xy 74.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5441,6 +5447,26 @@
 		)
 		(uuid "b2e0b17f-b06d-433e-9c68-dc7adaadd9b1")
 	)
+	(label "USBRPI_D-"
+		(at 85.09 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b57c9a4e-61e0-47a5-be85-0e3fd4ff9555")
+	)
+	(label "USBRPI_D+"
+		(at 85.09 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b57c9a4e-61e0-47a5-be85-0e3fd4ff9555")
+	)
 	(label "SCLK"
 		(at 34.29 73.66 180)
 		(effects
@@ -5556,7 +5582,7 @@
 	)
 	(hierarchical_label "USB1_D+"
 		(shape bidirectional)
-		(at 83.82 88.9 180)
+		(at 71.12 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5611,7 +5637,7 @@
 	)
 	(hierarchical_label "USB1_D-"
 		(shape bidirectional)
-		(at 83.82 91.44 180)
+		(at 71.12 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5988,7 +6014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3 V"
+		(property "Value" "3.3V"
 			(at 129.54 27.6224 0)
 			(effects
 				(font
@@ -6295,7 +6321,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 88.9 90)
+		(at 78.74 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6304,7 +6330,7 @@
 		(fields_autoplaced yes)
 		(uuid "14d1436a-5405-4ca6-9da8-5c82c7a345fa")
 		(property "Reference" "R3"
-			(at 91.44 82.55 90)
+			(at 78.74 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,15 +6338,15 @@
 			)
 		)
 		(property "Value" "27"
-			(at 91.44 85.09 90)
+			(at 78.74 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 90.678 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 88.9 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6364,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 88.9 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6373,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 91.44 88.9 90)
+			(at 78.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6382,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 91.44 88.9 90)
+			(at 78.74 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7598,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 91.44 90)
+		(at 78.74 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7580,7 +7606,7 @@
 		(dnp no)
 		(uuid "542be101-4b28-41df-ad28-19788a7becd9")
 		(property "Reference" "R4"
-			(at 91.44 94.742 90)
+			(at 78.74 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,15 +7614,15 @@
 			)
 		)
 		(property "Value" "27"
-			(at 91.44 97.282 90)
+			(at 78.74 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 93.218 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 91.44 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7640,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 91.44 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7649,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 91.44 91.44 90)
+			(at 78.74 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7658,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 91.44 91.44 90)
+			(at 78.74 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,72 +8349,6 @@
 			(project "uavprobe"
 				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/b637890e-36cc-449d-9355-32fb577ea192"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 25.4 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "648ba6b7-e71e-423a-81c1-0d9660b86823")
-		(property "Reference" "#PWR062"
-			(at 25.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 25.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e389862-e233-4a8e-bb6c-42b3b485d0ba")
-		)
-		(instances
-			(project "uavprobe"
-				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/b637890e-36cc-449d-9355-32fb577ea192"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10609,7 +10569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.1 V"
+		(property "Value" "1.1V"
 			(at 93.98 49.2124 0)
 			(effects
 				(font
