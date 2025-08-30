@@ -6098,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SERIAL1 (flow control)"
+		(property "Value" "SERIAL1 (flow)"
 			(at 100.33 39.7255 0)
 			(effects
 				(font

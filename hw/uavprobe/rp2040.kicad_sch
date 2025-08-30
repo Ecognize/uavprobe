@@ -5465,7 +5465,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b57c9a4e-61e0-47a5-be85-0e3fd4ff9555")
+		(uuid "b57c9a4e-61e0-47a5-be85-0e3fd4ff9556")
 	)
 	(label "SCLK"
 		(at 34.29 73.66 180)
@@ -7621,7 +7621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.74 93.218 90)
 			(effects
 				(font

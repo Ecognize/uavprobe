@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -232,12 +232,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.2
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.65,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -501,12 +501,11 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.8,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "diff_pair_width": 0.3,
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -519,8 +518,6 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.3,
-        "via_drill": 0.45,
         "wire_width": 15
       },
       {
@@ -530,12 +527,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.3,
-        "via_drill": 0.45,
         "wire_width": 15
       },
       {
-        "diff_pair_width": 0.5,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,

@@ -5770,7 +5770,7 @@
 				)
 			)
 		)
-		(property "Value" "RP2040 fault"
+		(property "Value" "MCU fault"
 			(at 264.4775 64.77 0)
 			(effects
 				(font
@@ -7521,8 +7521,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2040 power"
-			(at 33.782 155.956 0)
+		(property "Value" "5V USB1"
+			(at 28.702 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,8 +8410,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB peripheral power"
-			(at 33.782 163.576 0)
+		(property "Value" "5V USB2"
+			(at 28.702 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.01 103.632 90)
 			(effects
 				(font
@@ -9400,7 +9400,7 @@
 				)
 			)
 		)
-		(property "Value" "RP2040 power"
+		(property "Value" "MCU power"
 			(at 263.8425 143.51 0)
 			(effects
 				(font
@@ -9866,8 +9866,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB host power"
-			(at 33.782 148.336 0)
+		(property "Value" "5V USB in"
+			(at 30.226 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,8 +10762,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3V (HUB)"
-			(at 33.782 140.716 0)
+		(property "Value" "3.3V HUB"
+			(at 29.972 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
