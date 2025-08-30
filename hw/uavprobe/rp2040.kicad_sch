@@ -6000,7 +6000,7 @@
 		(at 125.73 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6086,7 +6086,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "08792e27-c529-4b01-a8c8-fd753fd40ed2")
@@ -6796,7 +6796,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60R"
 			(at 248.92 99.0599 0)
 			(effects
 				(font
@@ -7321,7 +7321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ABLS-12.000MHZ-B4-T"
+		(property "Value" "12 MHz"
 			(at 73.66 124.206 90)
 			(effects
 				(font
@@ -7517,7 +7517,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4a076d03-8793-47e0-8d70-45f5d4457802")
@@ -7734,7 +7734,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCP1117-5.0_SOT223"
+		(property "MPN" "NCP1117ST33T3G"
 			(at 83.82 27.94 0)
 			(effects
 				(font
@@ -7851,7 +7851,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5725a2ec-8d44-4089-b4b9-5ebcdc0690b0")
@@ -8140,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TJA1051T-3"
+		(property "MPN" "TJA1051T/3/1J "
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -8285,7 +8285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60R"
 			(at 248.92 91.4399 0)
 			(effects
 				(font
@@ -8475,7 +8475,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SC0914"
+		(property "MPN" "SC0914(7)"
 			(at 123.19 119.38 0)
 			(effects
 				(font
@@ -9576,7 +9576,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "W25Q16JVSS"
+		(property "MPN" "W25Q16JVSSIQ"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -10085,7 +10085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60R"
 			(at 248.92 137.1599 0)
 			(effects
 				(font
@@ -10481,7 +10481,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60R"
 			(at 248.92 144.7799 0)
 			(effects
 				(font
@@ -10556,7 +10556,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e8550ab5-29b6-4aa5-8d09-5f1f988389c5")
@@ -10778,7 +10778,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SW_SPST_B3U-1000P"
+		(property "MPN" "B3U-1000PM"
 			(at 25.4 130.81 90)
 			(effects
 				(font
@@ -11833,7 +11833,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TJA1051T-3"
+		(property "MPN" "TJA1051T/3/1J"
 			(at 214.63 139.7 0)
 			(effects
 				(font

@@ -5989,7 +5989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SW_SPST_B3U-1000P"
+		(property "MPN" "B3U-1000PM"
 			(at 160.02 144.78 0)
 			(effects
 				(font
@@ -7508,7 +7508,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "74134662-8ed0-45f6-968c-d3b6ffcb28c0")
@@ -8397,7 +8397,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9e964e5f-a37c-4ba9-8612-6ef89c038943")
@@ -9853,7 +9853,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4ef58d9-05fa-496f-9d8b-db49b3f8cc9b")
@@ -10255,7 +10255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCP1117-5.0_SOT223"
+		(property "MPN" "NCP1117ST33T3G"
 			(at 90.17 130.81 0)
 			(effects
 				(font
@@ -10354,7 +10354,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS2561"
+		(property "MPN" "TPS2561DRCT"
 			(at 83.82 168.91 0)
 			(effects
 				(font
@@ -10561,7 +10561,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB4105-GF-A"
+		(property "MPN" "USB4105-GF-A "
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -10749,7 +10749,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ea7f20ef-8dbf-4a8b-b4ff-e0a01c2c37ae")
@@ -10969,7 +10969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ABM3B-24.000MHZ-10-B-1-U-T"
+		(property "MPN" "ABM3B-24.000MHZ-10-1-U-T"
 			(at 194.31 52.07 0)
 			(effects
 				(font
