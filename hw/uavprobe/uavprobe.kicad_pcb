@@ -9333,6 +9333,17 @@
 			(uuid "51bcd7d5-432a-48a7-92d0-811c2ed14d1b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/USB2412-DZK.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Import:XTAL_ABLS-12.000MHZ-B4-T"
 		(layer "F.Cu")
@@ -9689,6 +9700,17 @@
 			(uuid "971f755d-9416-4f16-9be7-ba788f2e91c5")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/ABLS-12.000MHZ-B4-T.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
