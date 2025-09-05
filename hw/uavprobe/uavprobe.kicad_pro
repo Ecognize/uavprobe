@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "drill": 0.3,
+          "height": 0.7,
+          "width": 0.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "extra_footprint|123600000|75650000|92733e2e-7bb6-465e-be98-43d3819d94a3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|121450000|123370000|98b52ab7-d46a-4b4d-bdf9-9553c21635bf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|123600000|75650000|92733e2e-7bb6-465e-be98-43d3819d94a3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|126250000|108687500|9884e9b1-0368-4540-a053-5d4ca4717f73|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|132090000|119010000|291f3387-b7d2-4909-a0cf-9b5ba2a4f743|a8050479-9643-432d-882e-5270578dadb3",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -520,7 +541,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.5,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },

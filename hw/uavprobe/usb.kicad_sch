@@ -3428,6 +3428,12 @@
 		(uuid "5b4a5595-a387-4bd5-9076-c9f4196ab3b5")
 	)
 	(junction
+		(at 114.3 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61552b1f-23f9-4497-9afe-20c672005104")
+	)
+	(junction
 		(at 110.49 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3911,6 +3917,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 85.09) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2895acb8-ba83-482e-b7cc-349d7adaa1f5")
+	)
+	(wire
+		(pts
 			(xy 238.76 46.99) (xy 238.76 68.58)
 		)
 		(stroke
@@ -3938,6 +3954,16 @@
 			(type default)
 		)
 		(uuid "29d55909-4d03-4146-8d19-3f89fed77c98")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be7eaab-53a2-437d-a5ee-7f74ed0be55f")
 	)
 	(wire
 		(pts
@@ -4021,6 +4047,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 82.55) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b35b6a5-b194-4ae0-908d-60eb38733cee")
+	)
+	(wire
+		(pts
 			(xy 252.73 116.84) (xy 261.62 116.84)
 		)
 		(stroke
@@ -4078,16 +4114,6 @@
 			(type default)
 		)
 		(uuid "466e5672-b03b-4e1a-a931-b8312d5ecd71")
-	)
-	(wire
-		(pts
-			(xy 133.35 85.09) (xy 78.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475510dd-1bc6-4e41-a4d4-e1b4be17bd21")
 	)
 	(wire
 		(pts
@@ -4371,16 +4397,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 87.63) (xy 133.35 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9146fa-3939-448b-bdab-0c28a5084dd9")
-	)
-	(wire
-		(pts
 			(xy 130.81 92.71) (xy 133.35 92.71)
 		)
 		(stroke
@@ -4388,6 +4404,16 @@
 			(type default)
 		)
 		(uuid "7004f95d-7a63-48a3-b735-8ca3431f3079")
+	)
+	(wire
+		(pts
+			(xy 76.2 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e70f8b-b08b-4326-96d3-2353fdbcbf58")
 	)
 	(wire
 		(pts
@@ -5171,6 +5197,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3e1f2e-b152-4491-a191-1af9eb916d8d")
+	)
+	(wire
+		(pts
 			(xy 245.11 68.58) (xy 238.76 68.58)
 		)
 		(stroke
@@ -5469,6 +5505,16 @@
 		)
 		(uuid "fa7850ba-c4bf-48fe-a62b-3e81e2a03400")
 	)
+	(wire
+		(pts
+			(xy 121.92 87.63) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9d155b-1977-4ef6-841c-90bdf2e1f467")
+	)
 	(label "~{RESET}"
 		(at 182.88 151.13 0)
 		(effects
@@ -5508,6 +5554,26 @@
 			(justify left bottom)
 		)
 		(uuid "3dec9d11-a25b-4559-ba34-9b63e9429e8c")
+	)
+	(label "USBIN_D-"
+		(at 121.92 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ed1945b-f639-42cf-80f6-4f2b540220f7")
+	)
+	(label "USBIN_D+"
+		(at 121.92 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ed1945b-f639-42cf-80f6-4f2b540220f8")
 	)
 	(label "FAULT2"
 		(at 275.59 80.01 0)
@@ -9478,6 +9544,173 @@
 		)
 	)
 	(symbol
+		(lib_id "ECLAMP850:ECLAMP8052P.TCT")
+		(at 83.82 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c36e1907-23f9-40d4-ac0c-eb16298b44b3")
+		(property "Reference" "FL2"
+			(at 103.378 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECLAMP8052P.TCT"
+			(at 102.87 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Import:ECLAMP8052PTCT"
+			(at 118.11 -7.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MClt/x4_O.M8f1_5l6CovuR7Nj9RxqDFB_sAgVeqN73g7pps"
+			(at 118.11 -107.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes COMMON MODE FILTER & ESD"
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 118.11 -307.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SEMTECH"
+			(at 118.11 -407.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECLAMP8052P.TCT"
+			(at 118.11 -507.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "947-ECLAMP8052P.TCT"
+			(at 118.11 -607.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semtech/ECLAMP8052P.TCT?qs=rBWM4%252BvDhIdksQ1MWttwUQ%3D%3D"
+			(at 118.11 -707.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ECLAMP8052P.TCT"
+			(at 118.11 -807.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/eclamp8052p.tct/semtech?region=nac"
+			(at 118.11 -907.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "983a426c-4ee7-4372-84a6-3826dac9a88c")
+		)
+		(pin "2"
+			(uuid "34178f7c-c839-4727-b9a0-1768376b5d64")
+		)
+		(pin "5"
+			(uuid "e9677df9-e053-45c9-8707-5171711b349f")
+		)
+		(pin "3"
+			(uuid "4c82f3db-277e-4ba1-a15c-8f2013529513")
+		)
+		(pin "4"
+			(uuid "587201e4-b08b-4787-8684-1766816e1a5b")
+		)
+		(instances
+			(project "uavprobe"
+				(path "/e4efab0a-eb38-47b4-a7c8-7fdbedea4819/199cf35c-4212-4d48-8fab-6a59511a8aed"
+					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 109.22 0)
 		(unit 1)
@@ -10534,7 +10767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
 			(at 41.91 71.12 0)
 			(effects
 				(font
