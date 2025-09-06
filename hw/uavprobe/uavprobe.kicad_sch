@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UAV Sensor Probe")
-		(date "2025-08-24")
+		(date "2025-09-06")
 		(rev "1")
 		(comment 1 "Oleksiy Protas")
 	)
