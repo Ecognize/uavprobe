@@ -4,4 +4,5 @@
   (lib (name "ABLS")(type "KiCad")(uri "${KIPRJMOD}/lib/ABLS-12.000MHZ-B4-T.kicad_sym")(options "")(descr ""))
   (lib (name "UCLAMP330")(type "KiCad")(uri "${KIPRJMOD}/lib/UCLAMP3306P_TCT.kicad_sym")(options "")(descr ""))
   (lib (name "ECLAMP850")(type "KiCad")(uri "${KIPRJMOD}/lib/ECLAMP8052P_TCT.kicad_sym")(options "")(descr ""))
+  (lib (name "USBC")(type "KiCad")(uri "${KIPRJMOD}/lib/DX07S016JA1R1500.kicad_sym")(options "")(descr ""))
 )
